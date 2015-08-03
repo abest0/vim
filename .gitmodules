@@ -16,3 +16,6 @@
 [submodule "bundle/vim-tmux-navigator"]
 	path = bundle/vim-tmux-navigator
 	url = git://github.com/christoomey/vim-tmux-navigator.git
+[submodule "bundle/jsbeautify"]
+	path = bundle/jsbeautify
+	url = git://github.com/maksimr/vim-jsbeautify.git
