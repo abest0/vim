@@ -11,3 +11,7 @@ nmap <leader>t <Plug>(go-test)
 nmap <leader>c <Plug>(go-coverage)
 
 nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
+
+setlocal foldmethod=syntax
+setlocal foldlevelstart=20
+normal zR
