@@ -15,3 +15,5 @@ nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 setlocal foldmethod=syntax
 setlocal foldlevelstart=20
 normal zR
+
+autocmd BufWritePost,FileWritePost execute 'Lint' | cwindow
