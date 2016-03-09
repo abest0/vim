@@ -49,3 +49,6 @@
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "bundle/vim-pencil"]
+	path = bundle/vim-pencil
+	url = https://github.com/reedes/vim-pencil
