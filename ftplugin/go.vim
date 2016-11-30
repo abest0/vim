@@ -17,4 +17,6 @@ nmap <Leader>e <Plug>(go-rename)
 
 setlocal foldmethod=syntax
 setlocal foldlevelstart=20
+
+setlocal autowrite
 normal zR
