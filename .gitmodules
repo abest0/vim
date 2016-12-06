@@ -73,3 +73,6 @@
 [submodule "bundle/vim-gocode"]
 	path = bundle/vim-gocode
 	url = git://github.com/Blackrush/vim-gocode.git
+[submodule "bundle/gotests-vim"]
+	path = bundle/gotests-vim
+	url = git@github.com:buoto/gotests-vim.git
