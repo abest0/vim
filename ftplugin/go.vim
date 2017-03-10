@@ -23,10 +23,13 @@ nmap <leader>b :call <SID>build_go_files()<CR>
 nmap <leader>c <Plug>(go-coverage-toggle)
 nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 nmap <leader>t <Plug>(go-test)
-nmap <Leader>a <Plug>(go-alternate-edit) " goes to test file in current window
-nmap <Leader>av <Plug>(go-alternate-vertical) " Alternates between the implementation and test code in a new vertical split
-nmap <Leader>as <Plug>(go-alternate-split) " Alternates between the implementation and test code in a new horizontal split
 nmap <Leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
+
+" :GoAlternate  commands :A, :AV, :AS and :AT
+command! -bang A call go#alternate#Switch(<bang>0, 'edit')
+command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
+command! -bang AS call go#alternate#Switch(<bang>0, 'split')
+
 
 nmap <Leader>s <Plug>(go-implements)
 nmap <Leader>i <Plug>(go-info)
