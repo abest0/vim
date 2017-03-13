@@ -25,6 +25,11 @@ nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 nmap <leader>t <Plug>(go-test)
 nmap <Leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
 
+" :GoDef but opens in a vertical split
+nmap <Leader>v <Plug>(go-def-vertical)
+" :GoDef but opens in a horizontal split
+nmap <Leader>s <Plug>(go-def-split)
+
 " :GoAlternate  commands :A, :AV, :AS and :AT
 command! -bang A call go#alternate#Switch(<bang>0, 'edit')
 command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
