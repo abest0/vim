@@ -19,17 +19,25 @@ function! s:build_go_files()
     endif
 endfunction
 
+
+" Jump to next error with Ctrl-n and previous error with Ctrl-m. Close the
+" quickfix window with <leader>a
+" nmap <C-n> :cnext<CR>
+" nmap <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+
 nmap <leader>r <Plug>(go-run)
 nmap <leader>b :call <SID>build_go_files()<CR>
 nmap <leader>c <Plug>(go-coverage-toggle)
 nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 nmap <leader>t <Plug>(go-test)
+nmap <leader>T <Plug>(go-test-func) " execute a single function
 nmap <Leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
 
 " :GoDef but opens in a vertical split
-nmap <Leader>v <Plug>(go-def-vertical)
+nmap <Leader>dv <Plug>(go-def-vertical)
 " :GoDef but opens in a horizontal split
-nmap <Leader>s <Plug>(go-def-split)
+nmap <Leader>ds <Plug>(go-def-split)
 
 " :GoAlternate  commands :A, :AV, :AS and :AT
 command! -bang A call go#alternate#Switch(<bang>0, 'edit')
