@@ -22,8 +22,8 @@ endfunction
 
 " Jump to next error with Ctrl-n and previous error with Ctrl-m. Close the
 " quickfix window with <leader>a
-" nmap <C-n> :cnext<CR>
-" nmap <C-m> :cprevious<CR>
+nmap <leader>n :cnext<CR>
+nmap <leader>m :cprevious<CR>
 nnoremap <leader>a :cclose<CR>
 
 nmap <leader>r <Plug>(go-run)
@@ -32,7 +32,7 @@ nmap <leader>c <Plug>(go-coverage-toggle)
 nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 nmap <leader>t <Plug>(go-test)
 nmap <leader>T <Plug>(go-test-func) " execute a single function
-nmap <Leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
+nmap <leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
 
 " :GoDef but opens in a vertical split
 nmap <Leader>dv <Plug>(go-def-vertical)
