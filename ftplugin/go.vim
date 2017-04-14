@@ -33,6 +33,7 @@ nmap <Leader>gb <Plug>(go-doc-browser) " open Godoc in brower
 nmap <leader>t <Plug>(go-test)
 nmap <leader>T <Plug>(go-test-func) " execute a single function
 nmap <leader>gt :call GoTests()<CR> " call GoTests to create a test for the function under the cursor
+nmap <leader>gr <Plug>(go-referrers) " adds in a mapping for GoReferrers
 
 " :GoDef but opens in a vertical split
 nmap <Leader>dv <Plug>(go-def-vertical)
