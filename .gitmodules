@@ -88,3 +88,9 @@
 [submodule "bundle/vim-ansible-yaml"]
 	path = bundle/vim-ansible-yaml
 	url = git@github.com:chase/vim-ansible-yaml.git
+[submodule "bundle/ctrlp-cmatcher"]
+	path = bundle/ctrlp-cmatcher
+	url = git@github.com:JazzCore/ctrlp-cmatcher.git
+[submodule "bundle/ctrlp-py-matcher"]
+	path = bundle/ctrlp-py-matcher
+	url = git@github.com:FelikZ/ctrlp-py-matcher.git
