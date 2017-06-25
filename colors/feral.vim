@@ -38,7 +38,7 @@ hi Conceal      guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 
 " Syntax highlighting
 hi Operator     guifg=#bcbcbc ctermfg=250
-hi Comment      guifg=#808080 gui=italic ctermfg=244
+hi Comment      guifg=#bfbfbf gui=italic ctermfg=244
 hi Todo         guifg=#8f8f8f gui=none guibg=#ff8700 ctermfg=232 ctermbg=208
 hi Boolean      guifg=#8787af gui=none ctermfg=103
 hi String       guifg=#87af5f gui=italic ctermfg=107
