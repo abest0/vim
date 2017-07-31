@@ -97,3 +97,6 @@
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "bundle/vim-node"]
+	path = bundle/vim-node
+	url = git://github.com/moll/vim-node.git
