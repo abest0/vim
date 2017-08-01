@@ -100,3 +100,6 @@
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
 	url = git://github.com/moll/vim-node.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
