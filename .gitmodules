@@ -109,3 +109,6 @@
 [submodule "bundle/vim-easytags"]
 	path = bundle/vim-easytags
 	url = git@github.com:xolox/vim-easytags.git
+[submodule "bundle/vim-yaml-folds"]
+	path = bundle/vim-yaml-folds
+	url = git@github.com:digitalrounin/vim-yaml-folds.git
