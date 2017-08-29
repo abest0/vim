@@ -112,3 +112,6 @@
 [submodule "bundle/vim-yaml-folds"]
 	path = bundle/vim-yaml-folds
 	url = git@github.com:digitalrounin/vim-yaml-folds.git
+[submodule "bundle/jenkins-file-vim-syntax"]
+	path = bundle/jenkins-file-vim-syntax
+	url = git@github.com:martinda/Jenkinsfile-vim-syntax.git
