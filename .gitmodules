@@ -115,3 +115,6 @@
 [submodule "bundle/jenkins-file-vim-syntax"]
 	path = bundle/jenkins-file-vim-syntax
 	url = git@github.com:martinda/Jenkinsfile-vim-syntax.git
+[submodule "bundle/vim-vagrant"]
+	path = bundle/vim-vagrant
+	url = git@github.com:hashivim/vim-vagrant.git
