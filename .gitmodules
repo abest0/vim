@@ -118,3 +118,6 @@
 [submodule "bundle/vim-vagrant"]
 	path = bundle/vim-vagrant
 	url = git@github.com:hashivim/vim-vagrant.git
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
+	url = git@github.com:tpope/vim-rhubarb.git
