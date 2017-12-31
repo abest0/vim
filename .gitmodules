@@ -121,3 +121,6 @@
 [submodule "bundle/vim-rhubarb"]
 	path = bundle/vim-rhubarb
 	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "bundle/ansible-vim"]
+	path = bundle/ansible-vim
+	url = git@github.com:pearofducks/ansible-vim.git
