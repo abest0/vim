@@ -85,9 +85,6 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = git@github.com:davidhalter/jedi-vim.git
-[submodule "bundle/vim-ansible-yaml"]
-	path = bundle/vim-ansible-yaml
-	url = git@github.com:chase/vim-ansible-yaml.git
 [submodule "bundle/ctrlp-cmatcher"]
 	path = bundle/ctrlp-cmatcher
 	url = git@github.com:JazzCore/ctrlp-cmatcher.git
