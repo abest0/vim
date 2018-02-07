@@ -91,6 +91,7 @@
 [submodule "bundle/ctrlp-py-matcher"]
 	path = bundle/ctrlp-py-matcher
 	url = git@github.com:FelikZ/ctrlp-py-matcher.git
+    ignore = dirty
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
 	url = git://github.com/rodjek/vim-puppet.git
