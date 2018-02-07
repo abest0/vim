@@ -121,3 +121,6 @@
 [submodule "bundle/ansible-vim"]
 	path = bundle/ansible-vim
 	url = git@github.com:pearofducks/ansible-vim.git
+[submodule "bundle/vim-pydocstring"]
+	path = bundle/vim-pydocstring
+	url = git@github.com:heavenshell/vim-pydocstring.git
