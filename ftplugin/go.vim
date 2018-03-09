@@ -9,7 +9,11 @@ let g:go_highlight_extra_types = 1
 " let g:go_fmt_command = "goimports"
 " let g:go_auto_sameids = 1
 
-" run :GoBuild or :GoTestCompile based on the go file
+let g:deoplete#sources#go#package_dot = 1
+let g:deoplete#sources#go#gocode_binary = '/Users/abest/go/bin/gocode'
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+
+" :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
   let l:file = expand('%')
     if l:file =~# '^\f\+_test\.go$'
