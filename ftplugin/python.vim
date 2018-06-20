@@ -1,19 +1,27 @@
 let g:pydocstring_enable_mapping=0
 
-
-let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-let g:syntastic_python_python_exec = 'python3'
-" let g:syntastic_python_flake8_exec = 'python3'
-" let g:syntastic_python_flake8_args = ['-m', 'flake8', '--ignore=E501,C0111']
+let b:ale_linters = ['pylint']
+let b:ale_fixers = [
+            \ 'remove_trailing_lines',
+            \ 'isort',
+            \ 'yapf',
+\ ]
+" Disable warnings about trailing whitespace for Python files.
+let b:ale_warn_about_trailing_whitespace = 0
+" Disable linting on text changes
+let b:ale_lint_on_text_changed = 'never'
+let b:ale_lint_on_enter = 0
+let b:ale_python_pylint_options = '--load-plugins pylint_django'
 
 nnoremap <leader>a :cclose<CR>
 nmap <silent> <leader>p <Plug>(pydocstring)
 
-noremap <leader>y :call yapf#YAPF()<CR> 
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+  " Bind F8 to fixing problems with ALE
+nmap <F8> <Plug>(ale_fix)
+noremap <silent> <leader>y :call yapf#YAPF()<CR>
 
 set encoding=utf-8
 set expandtab
