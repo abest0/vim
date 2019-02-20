@@ -16,10 +16,10 @@ let b:ale_python_pylint_options = '--load-plugins pylint_django'
 nnoremap <leader>a :cclose<CR>
 nmap <silent> <leader>p <Plug>(pydocstring)
 
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nmap <leader>ap <Plug>(ale_previous_wrap)
+nmap <leader>an <Plug>(ale_next_wrap)
 
-  " Bind F8 to fixing problems with ALE
+" Bind F8 to fixing problems with ALE
 nmap <F8> <Plug>(ale_fix)
 noremap <silent> <leader>y :call yapf#YAPF()<CR>
 
