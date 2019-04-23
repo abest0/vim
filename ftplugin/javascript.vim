@@ -37,8 +37,3 @@ normal zR
 function! OpenTest()
   execute ":vsplit" expand('%:p:h') . '/__tests__/' . expand('%:t:r') . '.test.' . expand('%:e')
 endfunction
-
-let g:deoplete#sources#ternjs#filetypes = [
-                \ 'jsx',
-                \ 'javascript.jsx',
-                \ ]

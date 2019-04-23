@@ -11,10 +11,6 @@ let g:go_jump_to_error = 0
 let g:go_fmt_experimental = 1
 " let g:go_auto_sameids = 1
 
-let g:deoplete#sources#go#package_dot = 1
-let g:deoplete#sources#go#gocode_binary = '/Users/abest/go/bin/gocode'
-let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
-
 " :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
   let l:file = expand('%')
