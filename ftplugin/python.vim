@@ -11,7 +11,7 @@ let b:ale_warn_about_trailing_whitespace = 0
 " Disable linting on text changes
 let b:ale_lint_on_text_changed = 'never'
 let b:ale_lint_on_enter = 0
-let b:ale_python_pylint_options = '--load-plugins pylint_django'
+" let b:ale_python_pylint_options = '--load-plugins pylint_django'
 
 nnoremap <leader>a :cclose<CR>
 nmap <silent> <leader>p <Plug>(pydocstring)
