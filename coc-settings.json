@@ -1,0 +1,14 @@
+{
+  "python.jediEnabled": false,
+  "python.formatting.provider": "yapf",
+
+  "yaml.format.enable": true,
+  "[yaml]": {
+    "editor.tabsize": 2
+  },
+  "yaml.customTags": [
+    "!Ref",
+    "!Sub"
+  ]
+
+}
