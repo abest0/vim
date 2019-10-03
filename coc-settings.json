@@ -1,7 +1,6 @@
 {
   "python.jediEnabled": false,
   "python.formatting.provider": "yapf",
-
   "yaml.format.enable": true,
   "[yaml]": {
     "editor.tabsize": 2
@@ -9,6 +8,8 @@
   "yaml.customTags": [
     "!Ref",
     "!Sub"
-  ]
-
+  ],
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
 }
