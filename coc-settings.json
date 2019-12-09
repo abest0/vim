@@ -9,7 +9,11 @@
     "!Ref",
     "!Sub"
   ],
+  "[javascript]": {
+    "editor.tabsize": 2
+  },
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
+
 }
