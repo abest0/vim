@@ -12,8 +12,12 @@
   "[javascript]": {
     "editor.tabsize": 2
   },
+  "snippets.extends": {
+    "typescript": ["javascript"]
+  },
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true
-
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "typescript", "yaml"],
+  "prettier.printWidth": 119
 }
