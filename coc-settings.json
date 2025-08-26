@@ -5,26 +5,31 @@
   "[yaml]": {
     "editor.tabsize": 2
   },
-  "yaml.customTags": [
-    "!Ref",
-    "!Sub"
-  ],
+  "yaml.customTags": ["!Ref", "!Sub"],
   "[javascript]": {
     "editor.tabsize": 2
   },
   "snippets.extends": {
     "typescript": ["javascript"]
   },
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/dotfiles/.config/coc/ultisnips"
+  ],
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "python.linting.enabled": true,
   "pyright.inlayHints.variableTypes": false,
-  "pyright.inlayHints.parameterTypes": false,
   "pyright.inlayHints.functionReturnTypes": false,
   "pyright.organizeimports.provider": "ruff",
   "python.linting.ruffEnabled": true,
   "python.sortImports.path": "ruff",
-  "coc.preferences.formatOnSaveFiletypes": ["css","javascript", "typescript", "yaml"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "javascript",
+    "typescript",
+    "yaml"
+  ],
   "prettier.printWidth": 119
 }
